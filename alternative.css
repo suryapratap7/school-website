@@ -1,0 +1,87 @@
+/* This sheet is the default casscading sheet which is used in all the pages of the website */
+
+/* I have divide all the pages into three sections, which is top, middlie, bottom. top and bottom 
+sections are same in all the pages. middle section is different of all pages. In this file i have only styled 
+top, bottom and some common style for all pages */
+
+/* background-color is used to set body's backgroung color to a specofic color */
+body {
+	background-color: brown;
+}
+/* this section specifies the position of div top*/
+#top {
+	height: 150px;
+	background-color: brown;
+    margin-top: -20px;
+}
+#top h1 {
+	color: #F8F8F8;
+	margin-left: 150px;
+	 
+}
+/* This sectiont modify menu bar like font (size, family, weight) specifies font of menu bar. text-align sets
+the text to center and border radious adds rounded borders */
+#menu {
+	width: 160px;
+	font-size: 18px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: red;
+	border-radius: 6px;
+	color: #F0F0F0;
+	margin-left:-40px;
+}
+
+#menu ul {
+  	height: auto;
+  	padding: 8px 0px;
+  	margin: 0px;
+}
+/* display: inline sets list elements inline */
+#menu li {
+	padding: 40px;
+}
+/* text-decoration sets links style to none and padding is used to generate spaces around content */
+#menu a {
+    text-decoration: none;
+    color: #F0F0F0;
+    padding: 8px 8px 8px 8px;
+}
+/* Margin-(left, right, top, bottom) are used to set the margins of the content*/
+#middle {
+	margin-left: 140px;
+	margin-right: 90px;
+	background-color: yellow;
+	border-radius: 6px;
+	margin-top: -50px;
+}
+
+
+#bottom {
+	color: #F8F8F8;
+}
+/* float is used to shift content for example in this section content shifts to right */
+#contactTable{
+	float: right;
+	margin-right: 200px;
+}
+/* vertical-align property sets the vertical alignment of an element */
+#contactTable th, td {
+	vertical-align: top;
+	text-align:left;
+}
+
+#linkTable a {
+	text-decoration: none;
+	color: #F8F8F8;
+}
+
+#linkTable td {
+	padding: 8px 150px 8px 8px
+}
+
+#linkTable {
+	margin-left: 200px;
+}
+

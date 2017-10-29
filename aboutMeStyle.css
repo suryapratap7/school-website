@@ -1,0 +1,34 @@
+
+/*This section is used for putting profile pic to the 
+right position and adjusting its height and width*/
+/* Margin-(left, right, top, bottom) are used to set the margins of the content*/
+#middle img {width:150px;
+	height:180px;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+	
+#middle h2{
+		margin-top: 0px;
+		margin-bottom:-10px;
+}
+
+#middle h3{
+	margin-bottom:-10px;
+	margin-left:10px;
+}
+
+#middle p{
+	margin-left:10px;
+	margin-right:400px;
+}
+/* list-style is used to set all the list properties to one style which is none */
+ul {
+	list-style: none;
+	
+}
+
+li {
+	margin-left:-30px;
+}

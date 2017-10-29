@@ -1,0 +1,44 @@
+h2 {
+	margin-bottom: -10px;
+	margin-top: 0px;
+}
+
+p {
+	margin-bottom: 0px;
+	margin-top: -10px;
+}
+form {background: #F8F8F8;
+	  border: 2px solid black;
+	  border-radius: 5px;
+	  padding: 7px;
+	  margin-left: 100px;
+	  margin-right: 540px;
+}
+
+input[type="text"] {
+  width: 90%;
+  margin-bottom: 10px;
+  height: 2em;
+}
+
+input[type="radio"] {
+	margin-bottom: 10px;
+}
+
+textarea {
+  width: 90%;
+  height: 4em;
+  margin-bottom: 10px;
+  
+}
+
+img {
+	float: right;
+	width: 25%;
+	margin-right: 120px;
+	margin-top: 40px;
+}
+
+select {
+	margin-bottom: 10px;
+}
